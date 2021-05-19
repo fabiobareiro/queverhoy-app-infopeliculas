@@ -1,0 +1,20 @@
+{
+  "name": "bareirofabio-que-veo-hoy-recursos",
+  "version": "1.0.0",
+  "description": "hoy que veo? app con node y base de datos",
+  "main": "servidor/servidor.js",
+  "scripts": {
+    "start": "npx nodemon servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabio Bareiro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
